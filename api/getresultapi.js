@@ -6,6 +6,7 @@ const Testinfo = require("../database/testinfo");
 const Savedresponse = require("../database/savedresponse");
 
 //middlewares ------------------------------------------------------------------------------------------
+//optimising middlewares
 let router = express.Router();
 router.use(bodyparser.urlencoded({ extended: true }));
 router.use(express.static("public"));
