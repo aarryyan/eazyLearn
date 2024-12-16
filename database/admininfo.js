@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 //mongodb-----------------------------------------------------------------------------------------------------
 mongoose.connect("mongodb+srv://sam233:42119243Sam@cluster0.bgt3y.mongodb.net/userwoc", {useNewUrlParser: true});
+// changed schema
 
 const adminSchema = new mongoose.Schema({
     email: String,
